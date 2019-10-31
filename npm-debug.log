@@ -1,0 +1,156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/opah/.nvm/versions/node/v6.0.0/bin/node',
+1 verbose cli   '/home/opah/.nvm/versions/node/v6.0.0/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'bugs',
+1 verbose cli   'react-material-admin',
+1 verbose cli   '--save' ]
+2 info using npm@3.8.6
+3 info using node@v6.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData bugs
+8 silly fetchPackageMetaData react-material-admin
+9 silly fetchNamedPackageData bugs
+10 silly mapToRegistry name bugs
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'bugs',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   name: 'bugs',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/bugs
+15 silly fetchNamedPackageData react-material-admin
+16 silly mapToRegistry name react-material-admin
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'react-material-admin',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   name: 'react-material-admin',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/react-material-admin
+21 verbose request uri https://registry.npmjs.org/bugs
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 09:35:19
+24 verbose request id 7134241e96738382
+25 http request GET https://registry.npmjs.org/bugs
+26 verbose request uri https://registry.npmjs.org/react-material-admin
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 09:35:19
+29 http request GET https://registry.npmjs.org/react-material-admin
+30 http 200 https://registry.npmjs.org/bugs
+31 verbose headers { date: 'Thu, 31 Oct 2019 11:35:20 GMT',
+31 verbose headers   'content-type': 'application/json; charset=UTF-8',
+31 verbose headers   'transfer-encoding': 'chunked',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'set-cookie': [ '__cfduid=db095e808ed025d5f2973767cae9ed0ef1572521719; expires=Fri, 30-Oct-20 11:35:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+31 verbose headers   'cf-cache-status': 'MISS',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'cf-ray': '52e5532a2db74a82-GRU',
+31 verbose headers   etag: 'W/"bc6dd7d195a2a3aab9f2b6117180933f"',
+31 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+31 verbose headers   'last-modified': 'Sat, 26 May 2018 19:07:53 GMT',
+31 verbose headers   vary: 'accept-encoding, accept',
+31 verbose headers   server: 'cloudflare',
+31 verbose headers   'content-encoding': 'gzip' }
+32 silly get cb [ 200,
+32 silly get   { date: 'Thu, 31 Oct 2019 11:35:20 GMT',
+32 silly get     'content-type': 'application/json; charset=UTF-8',
+32 silly get     'transfer-encoding': 'chunked',
+32 silly get     connection: 'keep-alive',
+32 silly get     'set-cookie': [ '__cfduid=db095e808ed025d5f2973767cae9ed0ef1572521719; expires=Fri, 30-Oct-20 11:35:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+32 silly get     'cf-cache-status': 'MISS',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'cf-ray': '52e5532a2db74a82-GRU',
+32 silly get     etag: 'W/"bc6dd7d195a2a3aab9f2b6117180933f"',
+32 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+32 silly get     'last-modified': 'Sat, 26 May 2018 19:07:53 GMT',
+32 silly get     vary: 'accept-encoding, accept',
+32 silly get     server: 'cloudflare',
+32 silly get     'content-encoding': 'gzip' } ]
+33 verbose get saving bugs to /home/opah/.npm/registry.npmjs.org/bugs/.cache.json
+34 verbose correctMkdir /home/opah/.npm correctMkdir not in flight; initializing
+35 http 404 https://registry.npmjs.org/react-material-admin
+36 verbose headers { date: 'Thu, 31 Oct 2019 11:35:20 GMT',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'content-length': '21',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'set-cookie': [ '__cfduid=d4755837d45a3308798857b462264dda21572521719; expires=Fri, 30-Oct-20 11:35:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+36 verbose headers   'cf-cache-status': 'MISS',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'cf-ray': '52e5532b29a3cfd8-GRU',
+36 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+36 verbose headers   vary: 'accept-encoding, accept',
+36 verbose headers   server: 'cloudflare' }
+37 silly get cb [ 404,
+37 silly get   { date: 'Thu, 31 Oct 2019 11:35:20 GMT',
+37 silly get     'content-type': 'application/json',
+37 silly get     'content-length': '21',
+37 silly get     connection: 'keep-alive',
+37 silly get     'set-cookie': [ '__cfduid=d4755837d45a3308798857b462264dda21572521719; expires=Fri, 30-Oct-20 11:35:19 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+37 silly get     'cf-cache-status': 'MISS',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     'cf-ray': '52e5532b29a3cfd8-GRU',
+37 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+37 silly get     vary: 'accept-encoding, accept',
+37 silly get     server: 'cloudflare' } ]
+38 silly fetchPackageMetaData Error: Not found : react-material-admin
+38 silly fetchPackageMetaData     at makeError (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+38 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+38 silly fetchPackageMetaData     at Request._callback (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+38 silly fetchPackageMetaData     at Request.self.callback (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/request/request.js:199:22)
+38 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+38 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+38 silly fetchPackageMetaData     at Request.<anonymous> (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+38 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+38 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+38 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/request/request.js:963:12)
+38 silly fetchPackageMetaData  error for react-material-admin { Error: Not found : react-material-admin
+38 silly fetchPackageMetaData     at makeError (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+38 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+38 silly fetchPackageMetaData     at Request._callback (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+38 silly fetchPackageMetaData     at Request.self.callback (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/request/request.js:199:22)
+38 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+38 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+38 silly fetchPackageMetaData     at Request.<anonymous> (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+38 silly fetchPackageMetaData     at emitOne (events.js:101:20)
+38 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+38 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/request/request.js:963:12) pkgid: 'react-material-admin', statusCode: 404, code: 'E404' }
+39 silly rollbackFailedOptional Starting
+40 silly rollbackFailedOptional Finishing
+41 silly runTopLevelLifecycles Starting
+42 silly runTopLevelLifecycles Finishing
+43 silly install printInstalled
+44 verbose stack Error: Not found : react-material-admin
+44 verbose stack     at makeError (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+44 verbose stack     at CachingRegistryClient.<anonymous> (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+44 verbose stack     at Request._callback (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+44 verbose stack     at Request.self.callback (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/request/request.js:199:22)
+44 verbose stack     at emitTwo (events.js:106:13)
+44 verbose stack     at Request.emit (events.js:191:7)
+44 verbose stack     at Request.<anonymous> (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+44 verbose stack     at emitOne (events.js:101:20)
+44 verbose stack     at Request.emit (events.js:188:7)
+44 verbose stack     at IncomingMessage.<anonymous> (/home/opah/.nvm/versions/node/v6.0.0/lib/node_modules/npm/node_modules/request/request.js:963:12)
+45 verbose statusCode 404
+46 verbose pkgid react-material-admin
+47 verbose cwd /home/opah/Vídeos/Dashboard/dashboard-cvc-front-master
+48 error Linux 4.15.0-65-generic
+49 error argv "/home/opah/.nvm/versions/node/v6.0.0/bin/node" "/home/opah/.nvm/versions/node/v6.0.0/bin/npm" "i" "bugs" "react-material-admin" "--save"
+50 error node v6.0.0
+51 error npm  v3.8.6
+52 error code E404
+53 error 404 Not found : react-material-admin
+54 error 404
+55 error 404 'react-material-admin' is not in the npm registry.
+56 error 404 You should bug the author to publish it (or use the name yourself!)
+57 error 404 Note that you can also install from a
+58 error 404 tarball, folder, http url, or git url.
+59 verbose exit [ 1, true ]
